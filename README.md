@@ -57,7 +57,7 @@ If you installed the role from Galaxy, you should be fine to use the examples fr
 ###### Running the example playbook
 Run the following command using Ansible v2.4:
 ```
-ansible-playbook -i example-inventory.yml example-playbook.yml -v
+ansible-playbook -i inventory.yml playbook.yml -v
 ```
 The first time it will deploy that configuration on your ACI infrastructure.
 
